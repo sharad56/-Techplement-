@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Details - Online Course Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="course-details" class="content-section">
+            <div class="course-header">
+                <h1>Computer Science</h1>
+                <h3>this course is part of for everybody specialization</h3>
+            </div>
+            <div class="course-info">
+                <div class="course-image">
+                    <img src="images/course1.jpg" alt="Course Image">
+                </div>
+                <div class="course-description">
+                    <h2>Python for Everybody Specialization</h2>
+                    <h4>Learn to Program and Analyze Data with Python. Develop programs to gather, clean, analyze, and visualize data.   
+                    </h4>
+                    <ui>
+                    <p><b>What you'll learn</b>
+                       <li>Install Python and write your first program</li> 
+                        <li>Describe the basics of the Python programming language</li>
+                        <li> Use variables to store, retrieve and calculate information</li>
+                        <li> Utilize core programming tools such as functions and loops</li>
+                       </p>
+                    </ui>
+                </div>
+            </div>
+            
+            <form id="review-form">
+                <h3>Leave a Review</h3>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="review">Review:</label>
+                <textarea id="review" name="review" rows="4" required></textarea>
+                <button type="submit" class="btn">Submit Review</button>
+            </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Online Course Website</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
